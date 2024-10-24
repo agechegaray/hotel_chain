@@ -1,0 +1,11 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+#cards {
+    section {
+        grid-template-areas:
+        "photo name"
+        "photo address"
+        "photo phone";
+        column-gap: 10px;
+    }
+}

@@ -371,7 +371,7 @@ nav ul li a {
   color: #fff;
 }
 nav ul li a:hover {
-  background-color: #048f77;
+  background-color: #06b799;
 }
 nav li.active a {
   color: #fff;
@@ -413,9 +413,6 @@ main h1 {
   background-color: rgba(65, 25, 0, 0.5);
   border-radius: 15px;
   padding: 1rem;
-}
-#cards section:hover {
-  background-color: rgba(65, 25, 0, 0.7);
 }
 #cards img {
   grid-area: photo;
@@ -466,6 +463,7 @@ footer {
     grid-template-areas: "photo name" "photo address" "photo phone";
     -moz-column-gap: 10px;
          column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media only screen and (min-width: 64rem) {
@@ -494,12 +492,8 @@ footer {
     padding: 0.6rem 1.5rem;
     border: none;
   }
-  nav ul li a:hover {
-    background-color: #000000;
-  }
   nav li.active a {
-    color: #fff;
-    background-color: #048f77;
+    background-color: #266D61;
   }
   #navWrapper {
     background-color: #411900;

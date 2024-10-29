@@ -28,14 +28,8 @@ nav {
         padding: .6rem 1.5rem;
         border: none;
     }
-
-    ul li a:hover {
-        background-color: $tertiaryColor;
-    }
-
     li.active a {
-        color: #fff;
-        background-color: #048f77;
+        background-color: $primaryColor;
     }
 }
 
